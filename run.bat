@@ -1,0 +1,2 @@
+javac -d classes -cp libs\gdx.jar;libs\gdx-backend-lwjgl.jar src\com\bino\gravitation\*.java
+java -cp classes;libs\gdx.jar;libs\gdx-backend-lwjgl.jar;libs\gdx-natives.jar;libs\gdx-backend-lwjgl-natives.jar com.bino.gravitation.Main
